@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Panel ZiX Store</title>
+
+<link rel="stylesheet" href="../css/styles.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="../js/supabase.js"></script>
+
+</head>
+
+<body>
+
+<h1>Panel Administrador ZiX Store</h1>
+
+<hr>
+
+<h2>Agregar Producto</h2>
+
+<input id="nombre" placeholder="Nombre">
+
+<br><br>
+
+<textarea
+id="descripcion"
+placeholder="Descripción">
+</textarea>
+
+<br><br>
+
+<input
+id="precio"
+type="number"
+placeholder="Precio">
+
+<br><br>
+
+<input
+id="imagen"
+placeholder="URL Imagen">
+
+<br><br>
+
+<input
+id="stock"
+type="number"
+placeholder="Stock">
+
+<br><br>
+
+<button onclick="guardarProducto()">
+Guardar Producto
+</button>
+
+<script src="../js/admin.js"></script>
+
+</body>
+</html>
